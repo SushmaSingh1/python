@@ -1,0 +1,5 @@
+import configparser
+configParser = confiparser.RawConfigParser()   
+configFilePath = r'c:\myapp.txt'
+configParser.read(configFilePath)
+self.path = configParser.get('your-config', 'env')
